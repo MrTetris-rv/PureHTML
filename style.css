@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.wrapper .item {
+  height: 270px;
+  width: 200px;
+  border-radius: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 190, 118, 1);
+  margin: 1em;
+}
+.item img {
+  width: 150px;
+  margin: auto;
+  display: block;
+  padding-top: 10%;
+}
+.element1 {
+  order: 2;
+}
+.element2 {
+  order: 3;
+}
+.element3 {
+  order: 1;
+}

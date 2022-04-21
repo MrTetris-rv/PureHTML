@@ -1,0 +1,19 @@
+@media only screen and (max-width: 768px) {
+  .wrapper div {
+    width: 700px !important;
+    height: 670px !important;
+  }
+  .wrapper img {
+    width: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapper div {
+    width: 500px !important;
+    height: 470px !important;
+  }
+  .wrapper img {
+    width: 250px !important;
+  }
+}
